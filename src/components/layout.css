@@ -1,3 +1,10 @@
 @tailwind base;
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply font-sans;
+}
